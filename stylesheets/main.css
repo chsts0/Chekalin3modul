@@ -1,0 +1,272 @@
+body,
+html {
+	/* width: 100vw;
+	height: 100vh; */
+	display: block;
+	position: relative;
+	overflow-x: hidden;
+	height: 100%;
+	background-color: #FF7272;
+	font-family: 'Jost', sans-serif;
+}
+
+h1 {
+	font-size: 2.7083333333333335vw;
+}
+
+.heading h1 {
+	position: absolute;
+	margin-left: 1.5vw;
+}
+
+.logo p {
+	font-size: 1.0416666666666667vw;
+
+}
+
+.heading {
+	margin-top: 1.5vw;
+}
+
+.logo {
+	position: absolute;
+	margin-left: 87vw;
+}
+
+.logo img {
+	width: 10.15625vw;
+}
+
+.clouds {
+	position: absolute;
+}
+
+.clouds img {
+	width: 84.5vw;
+	margin-top: 12.45vw;
+	margin-left: 7vw;
+}
+
+
+/* Первый блок */
+.arrow_1st img {
+	position: absolute;
+	width: 9.1vw;
+	margin-top: 23.4vw;
+	margin-left: 27vw;
+}
+
+.soup_1st img {
+	position: absolute;
+	width: 22.1vw;
+	margin-top: 14.6vw;
+	margin-left: 38.5vw;
+}
+
+.soup_2nd img {
+	position: absolute;
+	width: 22.1vw;
+	margin-top: 14.6vw;
+	margin-left: 38.5vw;
+}
+
+.arrow_2nd img {
+	position: absolute;
+	width: 9.1vw;
+	margin-top: 23.4vw;
+	margin-left: 62.9vw;
+}
+
+.name_1st_soup p {
+	position: absolute;
+	font-size: 1.9328125vw;
+	margin-left: 38.8vw;
+	margin-top: 37.15vw;
+}
+
+.name_2nd_soup p {
+	position: absolute;
+	font-size: 1.9328125vw;
+	margin-left: 37.4vw;
+	margin-top: 37.15vw;
+}
+
+.soup_1st,
+.name_1st_soup {
+	opacity: 1;
+}
+
+.soup_2nd,
+.name_2nd_soup {
+	opacity: 0;
+}
+
+#soup_1st,
+#soup_2nd,
+#name_1st_soup,
+#name_2nd_soup {
+	transition: opacity 0.5s ease-in-out;
+}
+
+
+/* Второй блок */
+.arrow_3 img {
+	position: absolute;
+	width: 9.1vw;
+	margin-top: 51vw;
+	margin-left: 27vw;
+}
+
+.burger img {
+	position: absolute;
+	width: 22.1vw;
+	margin-top: 42.3vw;
+	margin-left: 38.5vw;
+}
+
+.stake img {
+	position: absolute;
+	width: 22.1vw;
+	margin-top: 42.3vw;
+	margin-left: 38.5vw;
+}
+
+.arrow_4 img {
+	position: absolute;
+	width: 9.1vw;
+	margin-top: 51vw;
+	margin-left: 62.9vw;
+}
+
+.name_burger p {
+	position: absolute;
+	font-size: 1.9328125vw;
+	margin-left: 35.3vw;
+	margin-top: 65.6vw;
+}
+
+.name_stake p {
+	position: absolute;
+	font-size: 1.9328125vw;
+	margin-left: 33.5vw;
+	margin-top: 65.6vw;
+}
+
+.burger,
+.name_burger {
+	opacity: 1;
+}
+
+.stake,
+.name_stake {
+	opacity: 0;
+}
+
+#burger,
+#stake,
+#name_burger,
+#name_stake {
+	transition: opacity 0.5s ease-in-out;
+}
+
+
+/* Третий блок */
+.arrow_5 img {
+	position: absolute;
+	width: 9.1vw;
+	margin-top: 78.5vw;
+	margin-left: 27vw;
+}
+
+.rain img {
+	position: absolute;
+	width: 18.3vw;
+	margin-top: 72vw;
+	margin-left: 42.7vw;
+}
+
+.toxic img {
+	position: absolute;
+	width: 18.3vw;
+	margin-top: 70.7vw;
+	margin-left: 42vw;
+}
+
+.arrow_6 img {
+	position: absolute;
+	width: 9.1vw;
+	margin-top: 78.5vw;
+	margin-left: 62.9vw;
+}
+
+.name_rain p {
+	position: absolute;
+	font-size: 1.9328125vw;
+	margin-left: 33.5vw;
+	margin-top: 91vw;
+}
+
+.name_toxic p {
+	position: absolute;
+	font-size: 1.9328125vw;
+	margin-left: 35vw;
+	margin-top: 91vw;
+}
+
+.rain,
+.name_rain {
+	opacity: 1;
+}
+
+.toxic,
+.name_toxic {
+	opacity: 0;
+}
+
+#rain,
+#toxic,
+#name_rain,
+#name_toxic {
+	transition: opacity 0.5s ease-in-out;
+}
+
+
+/* footer */
+.footer h1 {
+	position: absolute;
+	margin-left: 1.5vw;
+	padding-bottom: 1.2vw;
+
+}
+
+.logo2 p {
+	font-size: 1.0416666666666667vw;
+
+}
+
+.footer {
+	margin-top: 106.5vw;
+}
+
+.logo2 {
+	position: absolute;
+	margin-left: 89vw;
+	margin-top: 2.6vw;
+}
+
+hr {
+	border: 1.5px solid black;
+	width: 100%;
+	margin: 7px 0;
+}
+
+[data-type="arrow"] {
+	opacity: 1;
+	transition: opacity 0.5s ease-in-out;
+}
+
+[data-type="arrow"]:hover {
+	opacity: 0.5;
+}
+
+/* Конец */
